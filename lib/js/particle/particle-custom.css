@@ -1,0 +1,24 @@
+.particles-js {
+    position: relative;
+    width: 100%;
+    height:650px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.particles-js::after{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	content:"";
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:960px){
+    .particles-js {
+        height: 500px;
+    }
+}
+
